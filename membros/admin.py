@@ -5,7 +5,7 @@ from .models import CadMembro, Documento
 
 @admin.register(CadMembro)
 class Cad(admin.ModelAdmin):
-    list_display = ("name", "phone_namber", "created", "updated")
+    list_display = ("name", "phone_number", "created", "updated")
 
 @admin.register(Documento)
 class Doc(admin.ModelAdmin):
