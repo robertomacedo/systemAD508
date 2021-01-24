@@ -1,1 +1,1 @@
-web: gunicorn system508.wsgi
+web: gunicorn system508.wsgi --log-file -
