@@ -10,5 +10,10 @@ class CadMembro(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
 
-    def __str__(self):
-        return self.name
+class Documento(models.Model):
+    cpf = models.CharField(max_length=20)
+    rg = models.CharField(max_length=20)
+    titulo = models.CharField(max_length=20)
+    cnh = models.CharField(max_length=20)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
