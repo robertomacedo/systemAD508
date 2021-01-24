@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'membros',
+    'system508.membros',
 ]
 
 MIDDLEWARE = [
